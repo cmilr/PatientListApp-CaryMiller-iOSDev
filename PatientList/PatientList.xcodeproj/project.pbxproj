@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DACC633722B2CAF6000CE02D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC633622B2CAF6000CE02D /* AppDelegate.swift */; };
+		DACC633922B2CAF6000CE02D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC633822B2CAF6000CE02D /* ViewController.swift */; };
+		DACC633C22B2CAF6000CE02D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACC633A22B2CAF6000CE02D /* Main.storyboard */; };
+		DACC633E22B2CAF9000CE02D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACC633D22B2CAF9000CE02D /* Assets.xcassets */; };
+		DACC634122B2CAF9000CE02D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACC633F22B2CAF9000CE02D /* LaunchScreen.storyboard */; };
+		DACC634922B2CB7B000CE02D /* patientsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC634822B2CB7B000CE02D /* patientsData.swift */; };
+		DACC634B22B2CC26000CE02D /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC634A22B2CC26000CE02D /* CustomCell.swift */; };
+		DACC634D22B2CED4000CE02D /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC634C22B2CED4000CE02D /* Patient.swift */; };
+		DACC634F22B2E5BF000CE02D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC634E22B2E5BF000CE02D /* DetailViewController.swift */; };
+		DACC635122B2F1D2000CE02D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC635022B2F1D2000CE02D /* Constants.swift */; };
+		DACC635322B2F8FC000CE02D /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC635222B2F8FC000CE02D /* UITableView+Ext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DACC633322B2CAF6000CE02D /* PatientList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatientList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACC633622B2CAF6000CE02D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DACC633822B2CAF6000CE02D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DACC633B22B2CAF6000CE02D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DACC633D22B2CAF9000CE02D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DACC634022B2CAF9000CE02D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DACC634222B2CAF9000CE02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACC634822B2CB7B000CE02D /* patientsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patientsData.swift; sourceTree = "<group>"; };
+		DACC634A22B2CC26000CE02D /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		DACC634C22B2CED4000CE02D /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		DACC634E22B2E5BF000CE02D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DACC635022B2F1D2000CE02D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DACC635222B2F8FC000CE02D /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DACC633022B2CAF6000CE02D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DACC632A22B2CAF6000CE02D = {
+			isa = PBXGroup;
+			children = (
+				DACC633522B2CAF6000CE02D /* PatientList */,
+				DACC633422B2CAF6000CE02D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DACC633422B2CAF6000CE02D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DACC633322B2CAF6000CE02D /* PatientList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DACC633522B2CAF6000CE02D /* PatientList */ = {
+			isa = PBXGroup;
+			children = (
+				DACC633622B2CAF6000CE02D /* AppDelegate.swift */,
+				DACC633A22B2CAF6000CE02D /* Main.storyboard */,
+				DACC635022B2F1D2000CE02D /* Constants.swift */,
+				DACC635422B2F9DB000CE02D /* ViewContollers */,
+				DACC635822B2FAA3000CE02D /* Views */,
+				DACC635522B2F9FA000CE02D /* Models */,
+				DACC635722B2FA70000CE02D /* Data */,
+				DACC635622B2FA1D000CE02D /* Extensions */,
+				DACC633D22B2CAF9000CE02D /* Assets.xcassets */,
+				DACC633F22B2CAF9000CE02D /* LaunchScreen.storyboard */,
+				DACC634222B2CAF9000CE02D /* Info.plist */,
+			);
+			path = PatientList;
+			sourceTree = "<group>";
+		};
+		DACC635422B2F9DB000CE02D /* ViewContollers */ = {
+			isa = PBXGroup;
+			children = (
+				DACC633822B2CAF6000CE02D /* ViewController.swift */,
+				DACC634E22B2E5BF000CE02D /* DetailViewController.swift */,
+			);
+			path = ViewContollers;
+			sourceTree = "<group>";
+		};
+		DACC635522B2F9FA000CE02D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DACC634C22B2CED4000CE02D /* Patient.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DACC635622B2FA1D000CE02D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DACC635222B2F8FC000CE02D /* UITableView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DACC635722B2FA70000CE02D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DACC634822B2CB7B000CE02D /* patientsData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DACC635822B2FAA3000CE02D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DACC634A22B2CC26000CE02D /* CustomCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DACC633222B2CAF6000CE02D /* PatientList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACC634522B2CAF9000CE02D /* Build configuration list for PBXNativeTarget "PatientList" */;
+			buildPhases = (
+				DACC632F22B2CAF6000CE02D /* Sources */,
+				DACC633022B2CAF6000CE02D /* Frameworks */,
+				DACC633122B2CAF6000CE02D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatientList;
+			productName = PatientList;
+			productReference = DACC633322B2CAF6000CE02D /* PatientList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DACC632B22B2CAF6000CE02D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "C.Miller & Co.";
+				TargetAttributes = {
+					DACC633222B2CAF6000CE02D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DACC632E22B2CAF6000CE02D /* Build configuration list for PBXProject "PatientList" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DACC632A22B2CAF6000CE02D;
+			productRefGroup = DACC633422B2CAF6000CE02D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DACC633222B2CAF6000CE02D /* PatientList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DACC633122B2CAF6000CE02D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACC634122B2CAF9000CE02D /* LaunchScreen.storyboard in Resources */,
+				DACC633E22B2CAF9000CE02D /* Assets.xcassets in Resources */,
+				DACC633C22B2CAF6000CE02D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DACC632F22B2CAF6000CE02D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACC633922B2CAF6000CE02D /* ViewController.swift in Sources */,
+				DACC633722B2CAF6000CE02D /* AppDelegate.swift in Sources */,
+				DACC634B22B2CC26000CE02D /* CustomCell.swift in Sources */,
+				DACC634F22B2E5BF000CE02D /* DetailViewController.swift in Sources */,
+				DACC635122B2F1D2000CE02D /* Constants.swift in Sources */,
+				DACC635322B2F8FC000CE02D /* UITableView+Ext.swift in Sources */,
+				DACC634922B2CB7B000CE02D /* patientsData.swift in Sources */,
+				DACC634D22B2CED4000CE02D /* Patient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DACC633A22B2CAF6000CE02D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACC633B22B2CAF6000CE02D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DACC633F22B2CAF9000CE02D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACC634022B2CAF9000CE02D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DACC634322B2CAF9000CE02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DACC634422B2CAF9000CE02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DACC634622B2CAF9000CE02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7KMYQN6GY;
+				INFOPLIST_FILE = PatientList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmillerco.PatientList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DACC634722B2CAF9000CE02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7KMYQN6GY;
+				INFOPLIST_FILE = PatientList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmillerco.PatientList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DACC632E22B2CAF6000CE02D /* Build configuration list for PBXProject "PatientList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACC634322B2CAF9000CE02D /* Debug */,
+				DACC634422B2CAF9000CE02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACC634522B2CAF9000CE02D /* Build configuration list for PBXNativeTarget "PatientList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACC634622B2CAF9000CE02D /* Debug */,
+				DACC634722B2CAF9000CE02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DACC632B22B2CAF6000CE02D /* Project object */;
+}
